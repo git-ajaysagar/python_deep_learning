@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Nov  8 15:32:08 2020
+#face recognition using opencv and cnn with faces of elon musk and jeff bezos
 
-@author: Ajay
-"""
+# -*- coding: utf-8 -*-
+'''By Ajay'''
+
 import cv2 as cv
 import numpy as np
 import os
@@ -137,10 +136,8 @@ k_mod.summary()
 #fitting the model
 k_mod.fit(pics,la,epochs=50,shuffle=True)
 
-
-
 #testing the model on an image
-test_img=cv.imread(r'C:\Users\Ajay\Downloads\Angler-Im-Jeff-Bezos-Im-Your-Dad-Now.jpg')
+test_img=cv.imread(r'C:\Users\Ajay\Downloads\sample.jpg')
 cascade1 = cv.CascadeClassifier('C:\\Users\\Ajay\\Anaconda3\\Library\\etc\\haarcascades\\haarcascade_frontalface_default.xml')
 gray_test = cv.cvtColor(test_img, cv.COLOR_BGR2GRAY)
 
