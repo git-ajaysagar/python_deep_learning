@@ -34,9 +34,6 @@ def training(folder_name):
         folder_pics.append(embed[0])   
         
     folder_pics=np.array(folder_pics)
-    # chahat_pics=np.array(chahat_pics)
-    # jyoti_pics=np.array(jyoti_pics)
-    
     print(folder_pics.shape)
     
     nor=Normalizer(norm='l2')
