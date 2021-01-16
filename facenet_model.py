@@ -1,4 +1,4 @@
-#To be used with 'facenet_and_tkinter.py' file for adding new faces to the model
+#To be used with 'facenet_and_tkinter.py' file for adding new faces to the model.
 # -*- coding: utf-8 -*-
 '''By Ajay'''
 
